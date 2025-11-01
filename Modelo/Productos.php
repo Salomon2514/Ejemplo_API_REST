@@ -1,4 +1,5 @@
 <?PHP
+require_once "Modelo/SanitizarEntrada.php";
  class ObjProductos{ 
     
     private  $controlError=array();
@@ -12,7 +13,7 @@
     Private $pdo;
     Private $idp;
     Private $Accion;
-	//Private $pdo;
+
 	
 
 	Public function __construct($pdo){ 
@@ -24,8 +25,9 @@
 	public function DatosRequeridos(array $datos){
 
 
-		 $this->Codigo = $datos["codigo"];
-    	 $this->Producto = $datos["producto"];
+		 $this->Codigo = SanitizarEntrada::limpiarXSS($datos["codigo"]);
+		 $datos["producto"]= SanitizarEntrada::limpiarXSS($datos["producto"]);
+    	 $this->Producto = SanitizarEntrada::TipoTitulo($datos["producto"]);
     	 $this->Precio = $datos["precio"];
     	 $this->Cantidad = $datos["cantidad"];
 
@@ -59,11 +61,11 @@
 			return $resultado;
 	}
 
-	public function listarProductos($consulta){ 
+	public function AllProducts(){ 
     
-		  return $this->pdo->Arreglos($consulta);
+		  return $this->pdo->Arreglos("SELECT * FROM productos");
 			
-	}
+	}//Listar Productors
 
 	public function actualizarProducto(){
 
@@ -81,18 +83,13 @@
 		if ($this->pdo->updateSeguro("productos", $dataActualizar, $condicion))
    			echo "modificación exitosa";
    	
-	}//fin de Modificar Productos
+	}//fin de actualizarProductos
 
-	    //Cerrar la conexión
-		// $stmt = null;
-		// $pdo = null;
+	   
 
 } //fin ValidacionLogin
 
-	/* foreach($result as $key => $value) {
-	$resp[$key]=$value;
-	}//fin del foreach
-	*/
+
 
 
 ?>		

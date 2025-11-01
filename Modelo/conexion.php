@@ -7,23 +7,20 @@ class mod_db
 	private $total;
 	private $pagecut_query;
 	private $debug = false; // Cambiado a false para mantener la configuración original
-	
-	##### Setting SQL Vars #####
-	protected $sql_host = "localhost";
-	protected $sql_name = "company_info";
-	protected $sql_user = "root";
-	protected $sql_pass = "demo";
 
 	public function __construct()
 	{
 		
-	
-	$dsn = "mysql:host=$this->sql_host;
-	dbname=$this->sql_name;charset=utf8mb4";
+		##### Setting SQL Vars #####
+		$sql_host = "localhost";
+		$sql_name = "company_info";
+		$sql_user = "root";	
+		$sql_pass = "demo";
+		
 
+		$dsn = "mysql:host=$sql_host;dbname=$sql_name;charset=utf8mb4";
 		try {
-			$this->conexion = new PDO($dsn, $this->sql_user, 
-				$this->sql_pass);
+			$this->conexion = new PDO($dsn, $sql_user, $sql_pass);
 			$this->conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			if ($this->debug) {
 				echo "Conexión exitosa a la base de datos<br>";
@@ -132,6 +129,20 @@ public function insertSeguro($tb_name, $data)
 }//fin del update
 
 
+		public function executeQuery($string)
+		{
+		
+			try {
+				$stmt = $this->conexion->prepare($string);
+				$stmt->execute();
+				return $stmt;
+			} catch (PDOException $e) {
+				echo "Error: " . $e->getMessage();
+				return null;
+			}
+		}//fin del executeQuery 
+
+
 	public function del($tb_name, $astriction)
 	{
 		$sql = "DELETE FROM $tb_name";
@@ -165,23 +176,27 @@ public function insertSeguro($tb_name, $data)
 	} //log(usuario)
 
 
+	
 	public function nums($string = "", $stmt = null)
 	{
 		if ($string) {
 			$stmt = $this->executeQuery($string);
 		}
-		$this->total = $stmt ? $stmt->rowCount() : 0; // Cuenta el número de filas
-		return $this->total;
+		if ($stmt!=null)
+		{
+			$this->total = $stmt ? $stmt->rowCount() : 0; // Cuenta el número de filas
+			return $this->total;
+		}else {
+			return 0;
+		}
 	}
 
-	public function objects($string = "", $where ="")
+
+	//Este mi object para resolver los asuntos de las consultas con Limit
+	public function objects($stmt = "")
 	{
-		if ($string) {
-			$stmt = $this->executeQuery($string);
-		}
 		return $stmt ? $stmt->fetch(PDO::FETCH_OBJ) : null; // Retorna un objeto
 	}
-
 	
 	public function Arreglos($string = "")
 	{

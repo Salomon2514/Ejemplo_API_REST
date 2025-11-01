@@ -1,8 +1,19 @@
 <?PHP
 class SanitizarEntrada {
     // Sanitiza una cadena eliminando espacios y etiquetas HTML
+     public static function TipoTitulo($cadena) {
+    //ucfirst — Pone en mayúscula el primer carácter
+        return ucfirst($cadena);
+    }
+
     public static function limpiarCadena($cadena) {
-        return trim(strip_tags($cadena));
+        return strip_tags($cadena);
+    }
+
+     public static function limpiarXSS($cadena) {
+    //htmlspecialchars — Convierte caracteres especiales en entidades HTML
+    //Cross-Site Scripting (XSS) al manipular datos en JavaScript
+        return htmlspecialchars($cadena);
     }
 
     public static function ValidarEntero($variableEntera) {

@@ -15,11 +15,18 @@ switch ($method){
 	case 'POST':
 	//Crear un Producto
 	$MyProductoController->crearProducto();
+
+	break;
+
+	case 'GET':
+	
+	$MyProductoController->listarProductos();
+
 	break;
 
 	default:
-	http_response_code(405);
-	echo json_encode(["success" => false, "message" => "Método no permitido"]);
+	http_response_code(404);
+	echo json_encode(["success" => false, "message" => "404 Not Found - El servidor no pudo encontrar el recurso solicitado."]);
 }
 
 
