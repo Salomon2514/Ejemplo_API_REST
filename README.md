@@ -1,5 +1,9 @@
 # 📦 API REST CRUD PHP (OOP) + MySQL
 
+![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/Ejemplo_API_REST.svg?style=social)
+![Status](https://img.shields.io/badge/Estado-Finalizado-success)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 ¡Esta es la API para gestionar la base de datos de productos!
 
 <img width="1211" height="626" alt="image" src="https://github.com/user-attachments/assets/c45b6455-b713-45b2-b88c-38637ababadf" />
