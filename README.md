@@ -16,14 +16,18 @@
 * 🧭 Enrutamiento centralizado en `index.php`.
 * 🧱 Implementación de Programación Orientada a Objetos (POO).
 
-## 🛣️ Rutas (Endpoints)
+## 🛣️ Rutas (Endpoints) 
 
-* **[GET]** `/ApiRestFull` ➡️  Lista todos los productos.
-* **[POST]** `/ApiRestFull` ➡️  Crea un nuevo producto. (Requiere JSON Body)
+* **[GET]** `http://127.1.1.1/ApiRestFull` ➡️  Lista todos los productos.
+* **[POST]** `http://127.1.1.1/ApiRestFull` ➡️  Crea un nuevo producto. (Requiere JSON Body)
 
 
 ## ⚙️ Métodos Endpoints
-Los endpoints se utilizan en conjunto con métodos HTTP (como GET, POST, PUT, DELETE) para definir la acción que se quiere realizar. 
+📍 Los endpoints se utilizan en conjunto con métodos HTTP (como GET, POST, PUT, DELETE) para definir la acción que se quiere realizar. 
+📍 Los endpoints pueden incluir parámetros (en la URL o en el cuerpo de la solicitud) para especificar datos adicionales que necesita la API para procesar la solicitud.
+📍 Los puntos finales de API son esenciales para el buen funcionamiento y el rendimiento de cualquier aplicación. 
+
+
 
 ## 📍Punto de Acceso a la API
 📍Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).<br>
