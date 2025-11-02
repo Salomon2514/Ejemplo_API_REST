@@ -55,6 +55,7 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 ![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/Ejemplo_API_REST.svg?style=social)
 ![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.Ejemplo_API_REST)
 
+<br><br>
 
 ## 📚 Cómo usar este repositorio
 
