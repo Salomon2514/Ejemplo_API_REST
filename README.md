@@ -19,14 +19,14 @@
  
 
 ## 🛠️ Punto de Acceso a la API
-*📍Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).<br>
-*📍Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API. Los clientes de API envían solicitudes
+* 📍Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).<br>
+* 📍Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API. Los clientes de API envían solicitudes
 a los puntos finales de API para acceder a sus funciones y datos.<br>
 
 ## ⚙️ Métodos Endpoints
-*🔗 Los endpoints se utilizan en conjunto con métodos HTTP (como GET, POST, PUT, DELETE) para definir la acción que se quiere realizar. <br>
-*🔗 Los endpoints pueden incluir parámetros (en la URL o en el cuerpo de la solicitud) para especificar datos adicionales que necesita la API para procesar la solicitud. <br>
-*🔗 Los puntos finales de API son esenciales para el buen funcionamiento y el rendimiento de cualquier aplicación.  <br>
+* 🔗 Los endpoints se utilizan en conjunto con métodos HTTP (como GET, POST, PUT, DELETE) para definir la acción que se quiere realizar. <br>
+* 🔗 Los endpoints pueden incluir parámetros (en la URL o en el cuerpo de la solicitud) para especificar datos adicionales que necesita la API para procesar la solicitud. <br>
+* 🔗 Los puntos finales de API son esenciales para el buen funcionamiento y el rendimiento de cualquier aplicación.  <br>
 
 ## 🛣️ Rutas (Endpoints) 
 
