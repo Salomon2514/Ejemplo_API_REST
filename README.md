@@ -1,6 +1,6 @@
 # 📦 API REST CRUD PHP (OOP) + MySQL
 
-![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/Ejemplo_API_REST.svg?style=social)
+
 ![Status](https://img.shields.io/badge/Estado-Finalizado-success)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
