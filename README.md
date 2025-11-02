@@ -9,9 +9,7 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-## 🚀 Run in Postman
 
-Haz clic en el botón de abajo para importar la colección completa de la API.
 ## 🔢 Estadísticas
 
  ![Creado](https://img.shields.io/badge/Creado-08--04--2025-blue)
