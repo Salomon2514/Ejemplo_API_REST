@@ -14,6 +14,13 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
+## Punto de Acceso a la API
+
+### Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones). 
+### Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API.  Los clientes de API envían solicitudes a los puntos
+   finales de API para acceder a sus funciones y datos.
+
+
 
 ## 🔢 Estadísticas
 
