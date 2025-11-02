@@ -1,6 +1,7 @@
 # 📦 API REST CRUD PHP (OOP) + MySQL
 
 ¡Esta es la API para gestionar la base de datos de productos!
+![Uploading image.png…]()
 
 
 ## 🛠️ Stack Tecnológico
