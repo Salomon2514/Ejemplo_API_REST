@@ -21,9 +21,14 @@
 * **[GET]** `/ApiRestFull` ➡️  Lista todos los productos.
 * **[POST]** `/ApiRestFull` ➡️  Crea un nuevo producto. (Requiere JSON Body)
 
-## Punto de Acceso a la API
-📍Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).
-📍Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API. Los clientes de API envían solicitudes a los puntos finales de API para acceder a sus funciones y datos
+
+## ⚙️ Métodos Endpoints
+Los endpoints se utilizan en conjunto con métodos HTTP (como GET, POST, PUT, DELETE) para definir la acción que se quiere realizar. 
+
+## 📍Punto de Acceso a la API
+📍Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).<br>
+📍Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API. Los clientes de API envían solicitudes
+a los puntos finales de API para acceder a sus funciones y datos
    
 
 
