@@ -82,7 +82,8 @@ Universidad Tecnológica de Panamá
 
 ## 📖 Referencias
 
-- [https://www.youtube.com/watch?v=Y9jkkfGjbzQ]
-- [https://www.youtube.com/watch?v=qsejysrhJiU]
+- API REST con PHP: [ver aquí](https://www.youtube.com/watch?v=Y9jkkfGjbzQ)  
+- POSTMAN: [ver aquí](https://www.youtube.com/watch?v=qsejysrhJiU)
+
 
 
