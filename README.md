@@ -50,10 +50,11 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 <br>
 
 ## 🔢 Estadísticas
-<br>
+
 ![Creado](https://img.shields.io/badge/Creado-08--04--2025-blue)
 ![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/Ejemplo_API_REST.svg?style=social)
 ![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.Ejemplo_API_REST)
+
 
 ## 📚 Cómo usar este repositorio
 
