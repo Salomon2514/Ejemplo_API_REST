@@ -2,6 +2,7 @@
 
 ¡Esta es la API para gestionar la base de datos de productos!
 
+
 ## 🛠️ Stack Tecnológico
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
