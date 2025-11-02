@@ -14,14 +14,14 @@ Haz clic en el botón de abajo para importar la colección completa de la API.
 ## 🔢 Estadísticas
 
  ![Creado](https://img.shields.io/badge/Creado-08--04--2025-blue)
-![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/EjemplosJson.svg?style=social)
-![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.SeguridadOpenSSL)
+![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/Ejemplo_API_REST.svg?style=social)
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.Ejemplo_API_REST)
 
 ## 📚 Cómo usar este repositorio
 
 1. Descarga o clona el repositorio, ubica una carpeta en www -> para WampServer o htdocs  si es Xampp
   ```bash
-   [https://github.com/Salomon2514/SeguridadOpenSSL.git]
+   [https://github.com/Salomon2514/Ejemplo_API_REST.git]
 2. Para correrlos edita el URL de su navegador:  http://127.1.1.1/Carpeta/ o  http://localhost/Carpeta/
 ```
 
