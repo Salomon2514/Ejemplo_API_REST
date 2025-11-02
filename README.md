@@ -4,7 +4,22 @@
 
 <img width="1211" height="626" alt="image" src="https://github.com/user-attachments/assets/c45b6455-b713-45b2-b88c-38637ababadf" />
 
+## 🚀 Inicio Rápido de la API
 
+* ⚙️ **Requisitos:** Necesitas tener instalado WAMP/XAMPP (con PHP 8.1+) y MySQL.
+* ⬇️ **Instalación:** Clona el repositorio y configura tu base de datos.
+* 🛠️ **Configuración:** Edita 'Modelo/conexion.php' con tus credenciales.
+
+## ✨ Características de la API
+
+* ✅ CRUD completo para la tabla de Productos.
+* 🧭 Enrutamiento centralizado en `index.php`.
+* 🧱 Implementación de Programación Orientada a Objetos (POO).
+
+## 🛣️ Rutas (Endpoints)
+
+* **[GET]** `/ApiRestFull` ➡️  Lista todos los productos.
+* **[POST]** `/ApiRestFull` ➡️  Crea un nuevo producto. (Requiere JSON Body)
 
 
 ## 🛠️ Stack Tecnológico
@@ -14,11 +29,11 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-## Punto de Acceso a la API
 
-### Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones). 
-### Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API.  Los clientes de API envían solicitudes a los puntos
-   finales de API para acceder a sus funciones y datos.
+## Punto de Acceso a la API
+Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).
+Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API. Los clientes de API envían solicitudes a los puntos finales de API para acceder a sus funciones y datos
+   
 
 
 
