@@ -18,6 +18,7 @@
 ## 🚀 Inicio Rápido de la API
 
 * ⚙️ **Requisitos:** Necesitas tener instalado WAMP/XAMPP (con PHP 8.1+) y MySQL.
+* ⚙️ **Requisitos:** Necesitas tener instalado Postman.
 * ⬇️ **Instalación:** Clona el repositorio y configura tu base de datos.
 * 🛠️ **Configuración:** Edita 'Modelo/conexion.php' con tus credenciales.
 <br>
@@ -46,10 +47,10 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 * **[GET]** `http://127.1.1.1/ApiRestFull` ➡️  Lista todos los productos.
 * **[POST]** `http://127.1.1.1/ApiRestFull` ➡️  Crea un nuevo producto. (Requiere JSON Body)
 
-
 <br>
-## 🔢 Estadísticas
 
+## 🔢 Estadísticas
+<br>
 ![Creado](https://img.shields.io/badge/Creado-08--04--2025-blue)
 ![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/Ejemplo_API_REST.svg?style=social)
 ![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.Ejemplo_API_REST)
