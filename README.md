@@ -61,6 +61,22 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 
 <br>
 
+## 💻 Significado de la Dirección
+
+Dirección IP Inválida
+**  127.0.0.0: Esta es la dirección de red (la base de la subred de loopback) y, en la práctica, no es una dirección
+    válida para un host (un dispositivo) para enviar peticiones HTTP. El sistema operativo y el software de red
+    (como tu servidor web Apache) probablemente ignoraban o no respondían a peticiones dirigidas a esta IP.
+***  127.0.0.1: Esta es la dirección de "localhost" o "loopback". Es la dirección estándar y universalmente reconocida
+      que usa tu computadora para referirse a sí misma.
+
+*** Es una dirección de Loopback: Al igual que $127.0.0.1$, cualquier tráfico dirigido a $127.1.1.1$ nunca sale de tu 
+    computadora. El sistema operativo redirige los paquetes directamente de vuelta a la interfaz de red interna.
+*** Funciona como $127.0.0.1$: Para la mayoría de las aplicaciones y servicios, especialmente en un entorno de desarrollo
+    local (como tu servidor Apache), usar $127.1.1.1$ es funcionalmente idéntico a usar $127.0.0.1$. 
+    Tu servidor web responderá a la petición de la misma manera.
+    <br>
+
 ## 📚 Cómo usar este repositorio
 
 1. Descarga o clona el repositorio, ubica una carpeta en www -> para WampServer o htdocs  si es Xampp
