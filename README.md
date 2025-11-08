@@ -46,6 +46,29 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 * 🔗 Los endpoints pueden incluir parámetros (en la URL o en el cuerpo de la solicitud) para especificar datos adicionales que necesita la API para procesar la solicitud. <br>
 * 🔗 Los puntos finales de API son esenciales para el buen funcionamiento y el rendimiento de cualquier aplicación.  <br>
 <br>
+
+
+## 🛠️ ¿Por qué Usar raw y JSON en Postman?
+
+* <img width="1451" height="694" alt="image" src="https://github.com/user-attachments/assets/74bfde14-e400-4060-afeb-79ecb5390512" />
+* **Cuando su API REST recibe una petición POST para crear un recurso (un producto, en su caso), necesita que los datos lleguen de
+   una forma que pueda leer y decodificar fácilmente. La combinación de raw y JSON logra esto:
+
+* 1. raw (Cuerpo Crudo/Sin Procesar)
+     Seleccionar raw en la pestaña Body de Postman indica que usted mismo proporcionará el cuerpo de la solicitud como una cadena de texto
+     sin procesar.
+     Significado: Es la forma más flexible y estándar para enviar datos estructurados a una API REST, como texto puro, XML, o JSON.
+     En Postman: Le permite escribir o pegar el objeto JSON directamente en el área de texto.
+* 2. Json (JavaScript Object Notation)
+     Seleccionar JSON en el menú desplegable junto a raw realiza dos acciones cruciales:
+     A. Formato de Datos: Le dice a Postman que el texto que está escribiendo en el cuerpo raw debe seguir la sintaxis de JSON.
+     B. Configuración de Encabezado (Header): Automáticamente le agrega el encabezado necesario a su petición, el cual es vital
+para que su código PHP funcione 
+       ```bash
+       Content-Type: application/json 
+       ```
+<br>
+     
 ## 🛣️ Rutas (Endpoints) 
 
 * **[GET]** `http://127.1.1.1/ApiRestFull` ➡️  Lista todos los productos.
