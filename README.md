@@ -164,7 +164,7 @@ Universidad Tecnológica de Panamá
 
 - API REST con PHP: [ver aquí](https://www.youtube.com/watch?v=Y9jkkfGjbzQ)  
 - POSTMAN: [ver aquí](https://www.youtube.com/watch?v=qsejysrhJiU)
-- ¿Qué son los códigos HTTP?:[ver aquí](https://www.hostinger.com/co/tutoriales/codigos-http)
+- ¿Qué son los códigos HTTP?: [ver aquí](https://www.hostinger.com/co/tutoriales/codigos-http)
 
 
 
