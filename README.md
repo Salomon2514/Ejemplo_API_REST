@@ -147,6 +147,7 @@ para que su código PHP funcione
 ![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.Ejemplo_API_REST)
 
 <br>
+
 ## 👨‍🏫 Autor
 
 **Irina Fong**  
