@@ -53,7 +53,7 @@ se ha completado correctamente. Los códigos de estado se dividen en los siguien
 
 ## 🚀 ¿Cómo enviar un código de respuesta HTTP?
 * http_response_code(404)
-  
+  <br>
 
 ## 🛠️ Punto de Acceso a la API
 
