@@ -61,9 +61,9 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 
 <br>
 
-## 💻 Significado de la Dirección
+## 💻 Configurar una Dirección o endpoint válido
 
-Dirección IP Inválida
+### Dirección IP Inválida
 <br>
 * ⚙️ 127.0.0.0: Esta es la dirección de red (la base de la subred de loopback) y, en la práctica, no es una dirección
      válida para un host (un dispositivo) para enviar peticiones HTTP. El sistema operativo y el software de red
