@@ -34,6 +34,24 @@
 
 <br> 
 
+## 🚧 ¿Qué es un método HTTP?
+Un método HTTP, a veces denominado verbo HTTP, indica la acción que la solicitud HTTP espera del servidor consultado. Por ejemplo,
+dos de los métodos HTTP más comunes son 'GET' y 'POST'; una solicitud 'GET' espera recibir información a cambio (normalmente 
+en forma de sitio web), mientras que una solicitud 'POST' suele indicar que el cliente está enviando información al servidor web 
+(como datos de un formulario, por ejemplo, un nombre de usuario y una contraseña). Este ejemplo proporciona los dos métodos.
+<br>
+
+## ¿Qué es un código de estado HTTP?
+Los códigos de estado HTTP son códigos de 3 dígitos que se utilizan con mayor frecuencia para indicar si una solicitud HTTP
+se ha completado correctamente. Los códigos de estado se dividen en los siguientes 5 bloques:
+* 1. 1xx Informativo
+* 2. Éxito 2xx
+* 3. Redirección 3xx
+* 4. Error del cliente 4xx
+* 5. Error del servidor 5xx
+<br>
+  
+
 ## 🛠️ Punto de Acceso a la API
 
 * 🔵 Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).<br>
