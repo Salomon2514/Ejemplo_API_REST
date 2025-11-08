@@ -53,7 +53,7 @@ se ha completado correctamente. Los códigos de estado se dividen en los siguien
 
 ## 🚀 ¿Cómo enviar un código de respuesta HTTP?
 * http_response_code(404)
-  <br>
+  <br> <br>
 
 ## 🛠️ Punto de Acceso a la API
 
@@ -69,6 +69,20 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 * 🟢 Los puntos finales de API son esenciales para el buen funcionamiento y el rendimiento de cualquier aplicación.  <br>
 <br><br> 
 
+## 🌐 Métodos HTTP
+ API-REST-Productos ✨ GET, POST, PUT, DELETE
+
+*  GET 👁️ /productos - Obtiene la lista de todos los productos.
+
+*  POST ✨ /productos - Crea un nuevo producto.
+
+*  PUT 📝 /productos/{id} - Actualiza un producto existente por completo.
+
+*  PATCH 🩹 /productos/{id} - Aplica una actualización parcial a un producto.
+
+*  DELETE 🗑️ /productos/{id} - Elimina un producto.
+
+  <br><br>
 
 ## 🛠️ ¿Por qué Usar raw y JSON en Postman?
 
