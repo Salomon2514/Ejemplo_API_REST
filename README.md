@@ -58,8 +58,10 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 * 1. raw (Cuerpo Crudo/Sin Procesar)
      Seleccionar raw en la pestaña Body de Postman indica que usted mismo proporcionará el cuerpo de la solicitud como una cadena de texto
      sin procesar.
-     Significado: Es la forma más flexible y estándar para enviar datos estructurados a una API REST, como texto puro, XML, o JSON.
-     En Postman: Le permite escribir o pegar el objeto JSON directamente en el área de texto.
+     <ul><
+    <li><strong>Significado:</strong> Es la forma más flexible y estándar para enviar datos estructurados a una API REST, como texto puro, XML, o JSON.</li>
+    <li><strong> En Postman: Le permite escribir o pegar el objeto JSON directamente en el área de texto.</li>
+     </ul>
 * 2. Json (JavaScript Object Notation)
      Seleccionar JSON en el menú desplegable junto a raw realiza dos acciones cruciales:
      A. Formato de Datos: Le dice a Postman que el texto que está escribiendo en el cuerpo raw debe seguir la sintaxis de JSON.
