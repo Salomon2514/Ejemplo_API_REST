@@ -50,14 +50,17 @@ se ha completado correctamente. Los códigos de estado se dividen en los siguien
 * 4. Error del cliente 4xx
 * 5. Error del servidor 5xx
 <br>
-  
+
+## ¿Cómo enviar un código de respuesta HTTP?
+* http_response_code(404)
+* 
 
 ## 🛠️ Punto de Acceso a la API
 
 * 🔵 Un endpoint es la dirección que un cliente utiliza para comunicarse con un servidor que ofrece una API (Interfaz de Programación de Aplicaciones).<br>
 * 🔵 Un punto final de API es una URL que actúa como punto de contacto entre un cliente y un servidor de API. Los clientes de API envían solicitudes
 a los puntos finales de API para acceder a sus funciones y datos.<br>
-<br>
+<br><br>
 
 ## 🔗  Métodos Endpoints
 
