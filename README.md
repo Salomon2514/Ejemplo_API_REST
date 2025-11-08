@@ -51,8 +51,8 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 ## 🛠️ ¿Por qué Usar raw y JSON en Postman?
 
   <img width="1451" height="694" alt="image" src="https://github.com/user-attachments/assets/74bfde14-e400-4060-afeb-79ecb5390512" />
-  <br>
-* Cuando su API REST recibe una petición POST para crear un recurso (un producto, en su caso), necesita que los datos lleguen de
+  <br> <br>
+   Cuando su API REST recibe una petición POST para crear un recurso (un producto, en su caso), necesita que los datos lleguen de
    una forma que pueda leer y decodificar fácilmente. La combinación de raw y JSON logra esto:
 
 * 1. raw (Cuerpo Crudo/Sin Procesar)
