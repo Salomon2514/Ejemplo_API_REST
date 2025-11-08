@@ -152,6 +152,7 @@ para que su código PHP funcione
 
 **Irina Fong**  
 Docente de Programación  
+Desarrollo Web - Ingeniería Web
 Universidad Tecnológica de Panamá  
 
 📧 **Email:** irina.fong@utp.ac.pa  
