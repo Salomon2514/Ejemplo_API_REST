@@ -41,7 +41,7 @@ en forma de sitio web), mientras que una solicitud 'POST' suele indicar que el c
 (como datos de un formulario, por ejemplo, un nombre de usuario y una contraseña). Este ejemplo proporciona los dos métodos.
 <br>
 
-## ¿Qué es un código de estado HTTP?
+## 🧩 ¿Qué es un código de estado HTTP?
 Los códigos de estado HTTP son códigos de 3 dígitos que se utilizan con mayor frecuencia para indicar si una solicitud HTTP
 se ha completado correctamente. Los códigos de estado se dividen en los siguientes 5 bloques:
 * 1. 1xx Informativo
@@ -51,9 +51,9 @@ se ha completado correctamente. Los códigos de estado se dividen en los siguien
 * 5. Error del servidor 5xx
 <br>
 
-## ¿Cómo enviar un código de respuesta HTTP?
+## 🚀 ¿Cómo enviar un código de respuesta HTTP?
 * http_response_code(404)
-* 
+  
 
 ## 🛠️ Punto de Acceso a la API
 
@@ -149,6 +149,7 @@ Universidad Tecnológica de Panamá
 
 - API REST con PHP: [ver aquí](https://www.youtube.com/watch?v=Y9jkkfGjbzQ)  
 - POSTMAN: [ver aquí](https://www.youtube.com/watch?v=qsejysrhJiU)
+- ¿Qué son los códigos HTTP?:[ver aquí](https://www.hostinger.com/co/tutoriales/codigos-http)
 
 
 
