@@ -70,7 +70,7 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 <br><br> 
 
 ## 🌐 Métodos HTTP
- API-REST-Productos ✨ GET, POST, PUT, DELETE
+ API-REST-Productos [http://127.0.0.1/ApiRestFull/]  ✨ GET, POST, PUT, DELETE
 
 *  GET 👁️ /productos - Obtiene la lista de todos los productos.
 
