@@ -64,7 +64,7 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 ## 💻 Significado de la Dirección
 
 Dirección IP Inválida
-**  127.0.0.0: Esta es la dirección de red (la base de la subred de loopback) y, en la práctica, no es una dirección
+***  127.0.0.0: Esta es la dirección de red (la base de la subred de loopback) y, en la práctica, no es una dirección
     válida para un host (un dispositivo) para enviar peticiones HTTP. El sistema operativo y el software de red
     (como tu servidor web Apache) probablemente ignoraban o no respondían a peticiones dirigidas a esta IP.
 ***  127.0.0.1: Esta es la dirección de "localhost" o "loopback". Es la dirección estándar y universalmente reconocida
