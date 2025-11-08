@@ -39,7 +39,7 @@ Un método HTTP, a veces denominado verbo HTTP, indica la acción que la solicit
 dos de los métodos HTTP más comunes son 'GET' y 'POST'; una solicitud 'GET' espera recibir información a cambio (normalmente 
 en forma de sitio web), mientras que una solicitud 'POST' suele indicar que el cliente está enviando información al servidor web 
 (como datos de un formulario, por ejemplo, un nombre de usuario y una contraseña). Este ejemplo proporciona los dos métodos.
-<br>
+<br><br> 
 
 ## 🧩 ¿Qué es un código de estado HTTP?
 Los códigos de estado HTTP son códigos de 3 dígitos que se utilizan con mayor frecuencia para indicar si una solicitud HTTP
@@ -49,7 +49,7 @@ se ha completado correctamente. Los códigos de estado se dividen en los siguien
 * 3. Redirección 3xx
 * 4. Error del cliente 4xx
 * 5. Error del servidor 5xx
-<br>
+<br><br> 
 
 ## 🚀 ¿Cómo enviar un código de respuesta HTTP?
 * http_response_code(404)
@@ -67,7 +67,7 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 * 🟢 Los endpoints se utilizan en conjunto con métodos HTTP (como GET, POST, PUT, DELETE) para definir la acción que se quiere realizar. <br>
 * 🟢 Los endpoints pueden incluir parámetros (en la URL o en el cuerpo de la solicitud) para especificar datos adicionales que necesita la API para procesar la solicitud. <br>
 * 🟢 Los puntos finales de API son esenciales para el buen funcionamiento y el rendimiento de cualquier aplicación.  <br>
-<br>
+<br><br> 
 
 
 ## 🛠️ ¿Por qué Usar raw y JSON en Postman?
@@ -92,7 +92,7 @@ para que su código PHP funcione
        ```bash
        Content-Type: application/json 
        ```
-<br>
+<br><br> 
      
 ## 🛣️ Rutas (Endpoints) 
 
@@ -127,6 +127,7 @@ para que su código PHP funcione
    [https://github.com/Salomon2514/Ejemplo_API_REST.git]
 2. Para correrlos edita el URL de su navegador:  http://127.1.1.1/Carpeta/ o  http://localhost/Carpeta/
 ```
+<br> <br> 
 ## 🔢 Estadísticas
 
 ![Creado](https://img.shields.io/badge/Creado-08--04--2025-blue)
