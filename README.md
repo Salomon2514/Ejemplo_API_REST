@@ -61,10 +61,10 @@ a los puntos finales de API para acceder a sus funciones y datos.<br>
 
 <br>
 
-## 💻 Configurar una Dirección o endpoint válido
+## 💻 Configurar una Dirección o endpoint válido en Postman 
 
-### Dirección IP Inválida
-<br>
+### Dirección IP Inválida [http://127.0.0.1/ApiRestFull/]
+
 * ⚙️ 127.0.0.0: Esta es la dirección de red (la base de la subred de loopback) y, en la práctica, no es una dirección
      válida para un host (un dispositivo) para enviar peticiones HTTP. El sistema operativo y el software de red
     (como tu servidor web Apache) probablemente ignoraban o no respondían a peticiones dirigidas a esta IP.
